@@ -198,9 +198,6 @@ void main() {
       for (var i = 0; i < cardapio.length; i++) {
         print("${i + 1}) ${cardapio[i]}");
       }
-      if (pedidos.isEmpty) {
-        print("Não há pizzas no cardápio.");
-        }
     } else if (opcao == 6) {
       // Listar pedidos
       if (pedidos.isEmpty) {
